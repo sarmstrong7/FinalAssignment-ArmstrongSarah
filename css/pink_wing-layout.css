@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* font */
+@font-face {
+	font-family: Nautilus ;
+	src: url("../fonts/Nautilus.otf")
+}
+
+*{box-sizing: border-box;
+}
+
+			
+
+hr{ border-color: #2B0E51;}
+
+p{
+    font-size: 1.25em;
+    color: #FFFFFF;
+	text-align: center;
+}
+
+a.sidenavlink {
+	color: white;
+}
+
+a.sidenavlink:hover{
+	color: #EF0FBF;
+}
+
+
+
+.h1{text-align: center; color: white;font-family: Nautilus;} 
+.h2{text-align: center; line-height: 5px; color: White;}
+
+
+
+#backgroundImages{
+	
+	/* The imaged used */
+	
+	background-image: url("../images/Armstrong_Logo3.png"), url("../images/background_01.png");
+					  ;
+
+	
+	
+
+	/* Center and scale the image */
+	background-position: 1130px 420px, center;
+	background-size: 45%, cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed, fixed;
+
+	
+
+	
+}
+
+/* Container content */
+#container{
+    width: 968px;
+	height: auto;
+    margin: 0 auto;
+    border: 4px solid #2B0E51;
+    padding-bottom: 10px;
+	       
+	 }
+
+
+/* Header style*/
+
+.header{
+  background-image:url("../images/banner_logo_pink_and_black.png");
+  width: 960px;	
+  height: 100px;
+ 
+}
+
+
+
+
+.form{
+	color: white;
+	text-align: center;
+}
+
+
+
+.top{ 
+	background-image: linear-gradient(to right, black, #EF0FBF );
+	border: solid #2B0E51;
+	padding-left: 20px;
+	margin-bottom: 50px;
+	
+}
+
+
+
+/* Nav */
+#nav{
+	width: 160px;
+	height: 400px;
+	margin: 10px 20px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+	border: 4px solid #2B0E51;
+	background-color: rgba(52,52,53,0.35);
+	
+}
+
+
+
+/* Content */
+
+	
+#info{
+	
+	height: auto;
+	margin-left: 230px;
+	margin-right: 30px;
+	padding: 5px;
+	padding-bottom: 150px;
+	border: 4px solid #2B0E51;
+	border-radius: 15px;
+	background-color: rgba(52,52,53,0.45);
+	
+}
+	
+.table-holder { 
+background: white
+	;
+
+}
+
+.table-holder table {
+	width: 100%;
+	height: 400px;
+	border-collapse: collapse;
+}
+
+.table-holder table tr{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+
+
+
+.table-holder table tr th{
+  border: 1px solid black;	
+  padding: 5px;
+  text-align: left;
+}
+
+
+
+.table-holder table tr td{
+	 border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+	
+	
+}
+
+
+/*Footer style*/
+.footer{ 
+	
+  margin: 10px 20px;	
+  padding-top: 10px;
+  padding-bottom: 20px;	
+
+  
+}
+
+ 
